@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виталий Еченко](https://up.htmlacademy.ru/htmlcss/36/user/2251273).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Лесухин](https://htmlacademy.ru/profile/caneklis).
 
 ---
 
