@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Отдых в Седоне, снять гостинницу в Седоне">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
             <a class="navigation-list-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-list-link" href="#">О седоне</a>
+            <a class="navigation-list-link" href="#">О Cедоне</a>
           </li>
           <li class="navigation-list-item">
             <a class="navigation-list-link" href="catalog.html">Гостиницы</a>
@@ -54,8 +54,10 @@
       <!-- первая секция -->
       <section class="welcome" data-test="hero">
         <h2 class="visually-hidden">Туры и экскурсии в Седоне.</h2>
-        <img src="images/index-background.jpg" alt="Фоновое изображение главной страницы" width="1200" height="485">
+        <img class="index-background-image" src="images/index-background.jpg" alt="Фоновое изображение главной страницы" width="1200" height="485">
         <img src="images/welcome.svg" alt="welcome" width="458" height="352">
+        <p class="welcome-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="welcome-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <!-- вторая секция -->
       <section class="advantages" data-test="advantages">
@@ -88,7 +90,8 @@
       <!-- третья секция -->
       <section class="recommendations">
         <h2 class="visually-hidden">Отдых в Седоне с комфортом и уютом!</h2>
-        <p class="recommendations-paragraph-main">Приезжайте в Седону отдохнуть в комфорте и уюте! <br class="recommendations-paragraph-last"> Опытный персонал и качественное обслуживание!</p>
+        <p class="recommendations-paragraph-main">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p class="recommendations-paragraph-last"> Опытный персонал и качественное обслуживание!</p>
         <ul class="recommendations-list">
           <li class="housing">
             <img class="housing-icon" src="icons/recommendations/housing.svg" alt="Иконка гостинницы" width="75" height="72">
@@ -110,7 +113,7 @@
           <h3 class="visually-hidden">Поиск гостинницы в Седоне</h3>
           <b class="hotel-search-title">Заинтересовались?</b>
           <p class="hotel-search">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="button button-all" href="catalog.html">Поиск гостиницы в Седоне</a>
+          <a class="hotel-search-button" href="catalog.html">Поиск гостиницы в Седоне</a>
         </div>
       </section>
       <section class="newsletter" data-test="subscribe">

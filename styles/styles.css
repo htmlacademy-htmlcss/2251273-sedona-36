@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  /* шапка */
+  .navigation-list-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  .navigation-item-button {
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #756157;
+    text-transform: uppercase;
+  }
+
+  /* основа */
+.welcome {
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.welcome-text {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.bridge {
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.real-city {
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.small-area-title,
+.beautiful-road-title,
+.few-tourists-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.small-area-text,
+.beautiful-road-text,
+.few-tourists-text {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.recommendations {
+    text-align: center;
+}
+
+.recommendations-paragraph-main {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.recommendations-paragraph-last {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333
+    ;
+}
+
+.recommendations-list {
+    text-align: center;
+}
+
+.housing-text-first,
+.housing-food-first,
+.housing-souvenirs-first {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.housing-text-last,
+.housing-food-last,
+.housing-souvenirs-last {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-search-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.hotel-search {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-search-button {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    background-color: #756157;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
