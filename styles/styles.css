@@ -59,8 +59,8 @@ body {
 }
 
 .button-reset {
-  color: #ffffff;
-  background-color: #000000;
+  color: red;
+
 }
 
 .heading-main {
@@ -119,24 +119,29 @@ body {
   color: #333333;
 }
 
+.newsletter {
+  background-image: url(../images/index-newsletter.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 415px;
+  text-align: center;
+}
+
 .newsletter-button-text {
   font-size: 20px;
 }
 
 .page-footer-title {
   color: #ffffff;
-  background-color: #000000;
 }
 .page-footer-text {
   color: #ffffff;
-  background: #000000;
 }
 
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
-  color: #000000;
 }
 
 /* catalog */
@@ -154,9 +159,15 @@ body {
   background-color: #000000;
 }
 
+.catalog-products {
+  background-image: url(../images/catalog-background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 476px;
+}
+
 .catalog-filter {
   color: #ffffff;
-  background-color: #000000;
 }
 
 .select-control h3 {
@@ -168,4 +179,12 @@ body {
 
 .select-control a {
   text-decoration: none;
+}
+
+.newsletter-catalog .page-footer-title {
+  color: #000000;
+}
+
+.newsletter-catalog .title-text {
+  color: #000000;
 }
