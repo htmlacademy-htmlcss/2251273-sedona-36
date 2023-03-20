@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button-brown {
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
+.button-blue {
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
+.button-green {
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7db54f;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
+.heading-main {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.heading-last {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.title-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+/* header */
+.navigation-list-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/* body */
+.main-page {
+  text-align: center;
+}
+
+.welcome-text {
+  color: #333333;
+}
+
+.real-city,
+.bridge {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.small-area-text,
+.beautiful-road-text,
+.few-tourists-text {
+  color: #333333;
+}
+
+.recommendations-list p {
+  color: #333333;
+}
+
+.hotel-search {
+  color: #333333;
+}
+
+.newsletter-button-text {
+  font-size: 20px;
+}
+
+.page-footer-title {
+  color: #ffffff;
+  background-color: #000000;
+}
+.page-footer-text {
+  color: #ffffff;
+  background: #000000;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* catalog */
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.catalog-filter {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.select-control h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.select-control a {
+  text-decoration: none;
+}
