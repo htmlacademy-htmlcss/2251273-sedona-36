@@ -27,12 +27,25 @@
   overflow: hidden;
 }
 
+html {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.conteiner {
+  width: 1200px;
+  background-color: #ffffff;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #F2F2F2;
+  background-color: #ffffff;
   color: #000000;
+  margin: 0 auto;
 }
 
 .button {
@@ -81,7 +94,49 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
 /* header */
+.header-page {
+  display: flex;
+  width: 1060px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  margin-right: 44px;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  width: 990px;
+  justify-content: space-between;
+}
+
+ .navigation-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation-list-item {
+  margin-right: 32px;
+}
+
+.navigation-list-items {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-item-search {
+  margin-right: 25px;
+}
+
+.navigation-item-heart {
+  margin-right: 33px;
+}
+
 .navigation-list-link {
   text-decoration: none;
   color: #000000;
@@ -90,19 +145,71 @@ body {
   text-transform: capitalize;
 }
 
-/* body */
-.main-page {
+/* main */
+
+.index-background-image {
+  display: block;
+  position: absolute;
+}
+
+.index-logo-image {
+  display: block;
+  position: relative;
+  top: 51px;
+  margin: 0 auto;
+  margin-bottom: 249px;
+}
+
+.welcome-title {
+  width: 620px;
+  height: 72px;
+  margin: 0 auto 25px;
   text-align: center;
 }
 
 .welcome-text {
+  width: 651px;
   color: #333333;
+  margin: 0 auto 90px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 64px;
+}
+
+.real-city-image,
+.bridge-image {
+  width: 800;
+  height: auto;
 }
 
 .real-city,
 .bridge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
   background-color: #82b3d3;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.small-area,
+.beautiful-road,
+.few-tourists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  text-align: center;
 }
 
 .small-area-text,
@@ -111,19 +218,60 @@ body {
   color: #333333;
 }
 
+.recommendations-paragraph-main {
+  width: 505px;
+  height: 72px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.recommendations-paragraph-last {
+  text-align: center;
+  margin: 0 auto 64;
+}
+
 .recommendations-list p {
   color: #333333;
 }
 
+.recommendations-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 96px;
+}
+
+.housing,
+.food,
+.souvenirs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 385px;
+}
+
 .hotel-search {
   color: #333333;
+  margin: 0 auto 96px;
+  text-align: center;
+}
+
+.hotel-search-title {
+  margin: 0 auto 20px;
+}
+
+.hotel-search-text {
+  width: 592px;
+  margin: 0 auto 62px;
 }
 
 .newsletter {
-  background-image: url(../images/index-newsletter.jpg);
-  background-repeat: no-repeat;
+  display: block;
   width: 1200px;
-  height: 415px;
+  height: 52px;
   text-align: center;
 }
 
@@ -138,10 +286,51 @@ body {
   color: #ffffff;
 }
 
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/index-newsletter.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 415px;
+}
+
+.page-footer-title {
+  margin: 96px auto 20px;
+}
+
+.page-footer-text {
+  margin-bottom: 54px;
+}
+
+.footer-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1096px;
+  height: 120px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-item a{
+  margin: 0 27px;
+  padding: 0;
+
+}
+
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
+  color: #000000;
 }
 
 /* catalog */
