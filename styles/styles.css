@@ -48,17 +48,6 @@ body {
   margin: 0 auto;
 }
 
-.button {
-  line-height: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase;
-  border-style: none;
-  border-radius: 4px;
-  padding: 8px 50px;
-}
-
 .button-brown {
   background-color: #756157;
 }
@@ -112,6 +101,7 @@ body {
   display: flex;
   width: 990px;
   justify-content: space-between;
+  align-items: center;
 }
 
  .navigation-list {
@@ -126,15 +116,16 @@ body {
 
 .navigation-list-items {
   display: flex;
+  align-items: center;
   list-style: none;
 }
 
 .navigation-item-search {
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .navigation-item-heart {
-  margin-right: 33px;
+  margin-right: 32px;
 }
 
 .navigation-list-link {
@@ -143,6 +134,19 @@ body {
   font-weight: 700;
   font-size: 20px;
   text-transform: capitalize;
+}
+
+.navigation-link-button {
+  width: 160px;
+  height: 36px;
+  padding: 8px 34px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
 /* main */
@@ -157,7 +161,7 @@ body {
   position: relative;
   top: 51px;
   margin: 0 auto;
-  margin-bottom: 249px;
+  margin-bottom: 202px;
 }
 
 .welcome-title {
@@ -184,7 +188,7 @@ body {
 .real-city-image,
 .bridge-image {
   width: 800;
-  height: auto;
+  height: 385px;
 }
 
 .real-city,
@@ -196,7 +200,7 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   width: 400px;
-  height: 400px;
+  height: 385px;
   text-align: center;
 }
 
@@ -208,7 +212,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 400px;
+  height: 385px;
   text-align: center;
 }
 
@@ -221,13 +225,15 @@ body {
 .recommendations-paragraph-main {
   width: 505px;
   height: 72px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .recommendations-paragraph-last {
   text-align: center;
-  margin: 0 auto 64;
+  margin: 0 auto;
+  margin-bottom: 64px;
 }
 
 .recommendations-list p {
@@ -255,7 +261,7 @@ body {
 
 .hotel-search {
   color: #333333;
-  margin: 0 auto 96px;
+  margin: 0 auto 105px;
   text-align: center;
 }
 
@@ -267,6 +273,20 @@ body {
   width: 592px;
   margin: 0 auto 62px;
 }
+
+.hotel-search-button {
+  width: 376px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 12px 50px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 
 .newsletter {
   display: block;
@@ -281,9 +301,26 @@ body {
 
 .page-footer-title {
   color: #ffffff;
+  margin: 96px auto;
+  margin-bottom: 0px;
 }
 .page-footer-text {
   color: #ffffff;
+  font-weight: 400;
+}
+
+.field {
+  width: 452px;
+  height: 52px;
+}
+
+.newsletter-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  border: none;
+  padding: ;
 }
 
 .newsletter {
@@ -293,10 +330,6 @@ body {
   background-repeat: no-repeat;
   width: 1200px;
   height: 415px;
-}
-
-.page-footer-title {
-  margin: 96px auto 20px;
 }
 
 .page-footer-text {
