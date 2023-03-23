@@ -35,6 +35,7 @@ html {
 .conteiner {
   width: 1200px;
   background-color: #ffffff;
+  margin: 0 auto;
 }
 
 body {
@@ -49,21 +50,12 @@ body {
   box-sizing: border-box;
 }
 
-/* .button-brown {
-  background-color: #756157;
-} */
-
 .button-blue {
   background-color: #82b3d3;
 }
 
 .button-green {
   background-color: #7db54f;
-}
-
-.button-reset {
-  color: red;
-
 }
 
 .heading-main {
@@ -392,28 +384,115 @@ border: none;
 
 /* catalog */
 
-.inner-header-title {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-}
-
-.breadcrumbs-link {
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-  background-color: #000000;
-}
-
-.catalog-products {
+.main-inner {
   background-image: url(../images/catalog-background.jpg);
   background-repeat: no-repeat;
   width: 1200px;
   height: 476px;
 }
 
-.catalog-filter {
+.inner-header {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 40px;
   color: #ffffff;
+}
+
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+  background-color: none;
+  padding: 0;
+}
+
+.breadcrumbs-item {
+  margin-right: 28px;
+}
+
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.catalog-products {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.catalog-filter {
+  display: flex;
+  color: #ffffff;
+}
+
+.infostructure {
+  border: none;
+  text-align: left;
+  padding: 0;
+  width: 151px;
+  margin-right: 68px;
+}
+
+
+.type-of-housing {
+  border: none;
+  text-align: left;
+  padding: 0;
+  width: 151px;
+  margin-right: 138px;
+}
+
+.infostructure-title,
+.type-of-housing-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+
+.infostructure-list,
+.type-of-housing-list {
+  list-style: none;
+  padding: 0;
+}
+
+.infostructure-item,
+.type-of-housing-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 16px;
+}
+
+.control-input {
+  border-radius: 4px;
+}
+
+.price-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-button-submit {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 50px 8px 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border: none;
+  border-radius: 4px;
 }
 
 .select-control h3 {
