@@ -283,17 +283,6 @@ body {
   padding: 80px 85px;
 }
 
-/* .housing-title,
-.food-title,
-.souvenirs-title {
-}
-
-.housing-text,
-.food-text,
-.souvenirs-text {
-  width: 230px;
-  height: 63px;
-} */
 
 .housing-icon {
   width: 75px;
@@ -313,6 +302,7 @@ body {
   background: url(../icons/recommendations/souvenirs.svg) no-repeat;
 }
 
+/* hotel-search */
 .hotel-search {
   height: 406px;
   padding: 96px 304px;
@@ -334,6 +324,7 @@ body {
   padding: 8px 50px;
 }
 
+/* subscription */
 .subscription {
   width: 1200px;
   height: 415px;
@@ -341,7 +332,6 @@ body {
   padding: 96px 258px 104px;
   text-align: center;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .subscription-title {
@@ -374,6 +364,7 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
+/* footer */
 .footer-conteiner {
   height: 70px;
   padding: 45px 70px 35px;
@@ -394,4 +385,20 @@ body {
   width: 48px;
   height: 40px;
   background: url('/icons/social/vk.svg') no-repeat;
+}
+
+/* catalog */
+.hotel-filter {
+  background: url(/images/catalog-background.jpg) no-repeat center;
+  background-size: cover;
+  padding: 35px 70px;
+}
+
+.filter-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-price {
+  display: flex;
 }
