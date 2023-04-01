@@ -137,18 +137,17 @@ body {
   margin: 0 28px 0 0;
 }
 
-.navigation-list-left {
+.navigation-list {
   max-width: 600px;
   margin: 0 auto 0 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
   align-items: center;
 }
 
-.left-list-link {
+.navigation-link {
   display: block;
   padding: 20px 16px;
 }
@@ -157,7 +156,7 @@ body {
   margin: 0;
 }
 
-.navigation-list-right {
+.navigation-items {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -165,30 +164,34 @@ body {
   align-items: center;
 }
 
-.right-link-button {
+.navigation-item-search {
   display: block;
+  width: 18px;
+  height: 18px;
+  background: url(/icons/header/search.svg) no-repeat center;
+  padding: 20px 13px;
+  margin-right: 18px;
 }
 
-.right-list-item {
-  margin: 0 32px 0 0;
+.navigation-item-heart {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(/icons/header/heart.svg) no-repeat center;
+  padding: 20px 13px;
+  margin-right: 29px;
 }
 
-.right-list-item:last-child {
-  margin: 0;
+.navigation-link-button {
+  display: block;
 }
 
 /* main-container */
 .main-welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 1200px;
   height: 485px;
-  background: url(../images/index-background.jpg) no-repeat;
-}
-
-.welcome-logo-image {
-  margin-bottom: 31px;
+  background: url(../images/index-background.jpg) no-repeat center;
+  padding: 51px 371px;
 }
 
 .advantages-header {
@@ -220,18 +223,24 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background: #82B3D3;
   color: #FFFFFF;
   padding: 102px 85px;
   text-align: center;
 }
 
+.real-city-image,
+.bridge-image {
+  height: 100%;
+  object-fit: cover;
+}
+
 .advantages-small-area,
 .advantages-beautiful-road,
 .advantages-few-tourists {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   padding: 113px 85px;
   text-align: center;
   display: flex;
@@ -274,31 +283,25 @@ body {
 .food,
 .souvenirs {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 80px 85px;
+  padding: 183px 85px 81px;
 }
 
 
-.housing-icon {
-  width: 75px;
-  height: 72px;
+.housing {
   background: url(../icons/recommendations/housing.svg) no-repeat;
 }
 
-.food-icon {
-  width: 74px;
-  height: 70px;
+.food {
   background: url(../icons/recommendations/food.svg) no-repeat;
 }
 
-.souvenirs-icon {
-  width: 64px;
-  height: 76px;
+.souvenirs {
   background: url(../icons/recommendations/souvenirs.svg) no-repeat;
 }
 
@@ -366,26 +369,65 @@ body {
 
 /* footer */
 .footer-conteiner {
-  height: 70px;
-  padding: 45px 70px 35px;
-}
-
-.social {
+  min-height: 70px;
+  padding: 47px 70px;
   display: flex;
   justify-content: space-between;
 }
 
 .social-list {
-  max-width: 160px;
-  list-style: none;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
-.button-vk {
+.social-link {
+padding: 13px 12px;
+}
+
+.vk-link {
+  display: block;
   width: 48px;
   height: 40px;
-  background: url('/icons/social/vk.svg') no-repeat;
+  background: url(/icons/social/vk.svg) no-repeat center;
+  padding: 13px 12px;
 }
+
+.telegram-link {
+  display: block;
+  width: 48px;
+  height: 40px;
+  background: url(/icons/social/telegram.svg) no-repeat;
+  padding: 13px 12px;
+}
+
+.youtube-link {
+  display: block;
+  width: 48px;
+  height: 40px;
+  background: url(/icons/social/youtube.svg) no-repeat;
+  padding: 13px 12px;
+}
+
+.address-phone {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.htmlacademy-link {
+  width: 115px;
+  height: 33px;
+  background: url(/icons/html-academy.svg) no-repeat;
+}
+
+
 
 /* catalog */
 .hotel-filter {

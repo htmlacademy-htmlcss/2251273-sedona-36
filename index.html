@@ -9,41 +9,41 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body class="body-container">
+    <!-- header -->
     <header class="header-container">
       <nav class="navigation">
         <a class="navigation-logo-link" href="index.html">
           <img class="navigation-logo-image" src="icons/logo.svg" alt="Логотип города Седона" width="140" height="70">
         </a>
-        <ul class="navigation-list-left">
-          <li class="left-list-item">
-            <a class="left-list-link navigation-link-text" href="index.html">Главная</a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-text" href="index.html">Главная</a>
           </li>
-          <li class="left-list-item">
-            <a class="left-list-link navigation-link-text" href="#">О Cедоне</a>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-text" href="#">О Cедоне</a>
           </li>
-          <li class="left-list-item">
-            <a class="left-list-link navigation-link-text" href="catalog.html">Гостиницы</a>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-text" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list-right">
-          <li class="right-list-item">
-            <img class="navigation-item-search" src="icons/header/search.svg" alt="Поиск по сайту" width="20" height="20">
-            <span class="right-item-search">
-              <a class="visually-hidden" href="#">Поиск по сайту</a>
-            </span>
+        <ul class="navigation-items">
+          <li class="navigation-item">
+            <a class="navigation-item-search" href="#">
+              <span class="visually-hidden">Поиск по сайту</span>
+            </a>
           </li>
-          <li class="right-list-item">
-            <img class="navigation-item-heart" src="icons/header/heart.svg" alt="Избранное" width="20" height="20">
-            <span class="visually-hidden">
-              <a class="right-item-heart" href="#">Избранное</a>
-            </span>
+          <li class="navigation-item">
+            <a class="navigation-item-heart" href="#">
+              <span class="visually-hidden">Избранное</span>
+            </a>
           </li>
-          <li class="right-list-items">
-            <a class="right-link-button button-text" href="#">Хочу сюда!</a>
+          <li class="navigation-item">
+            <a class="navigation-link-button button-text" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
     </header>
+    <!-- main -->
     <main class="main-container">
     <h1 class="visually-hidden">Шикарные туры в Седону</h1>
       <section class="main-welcome">
@@ -90,20 +90,14 @@
         </div>
         <ul class="recommendations-list">
           <li class="housing">
-            <span class="housing-icon"></span>
-            <!-- <img class="housing-icon" src="icons/recommendations/housing.svg" alt="Иконка гостинницы" width="75" height="72"> -->
             <h3 class="housing-title heading-title">Жильё</h3>
             <p class="housing-text heading-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="food">
-            <span class="food-icon"></span>
-            <!-- <img class="food-icon" src="icons/recommendations/food.svg" alt="Иконка еды" width="75" height="72"> -->
             <h3 class="food-title heading-title">Еда</h3>
             <p class="food-text heading-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="souvenirs">
-            <span class="souvenirs-icon"></span>
-            <!-- <img class="souvenirs-icon" src="icons/recommendations/souvenirs.svg" alt="Иконка сувениров" width="75" height="72"> -->
             <h3 class="souvenirs-title heading-title">Сувениры</h3>
             <p class="souvenirs-text heading-text">Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -130,26 +124,27 @@
     <footer class="footer-conteiner">
       <h2 class="visually-hidden">Обратная связь</h2>
         <ul class="social-list">
-          <h3 class="visually-hidden">Мы в социальных сетях</h3>
-          <li class="b">
-            <a class="button-vk-link" href="https://vk.com/htmlacademy">
+          <li class="vk-link">
+            <a class="social-link" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
-            <!-- <li class="social-tg">
-              <a class="button" href="https://t.me/htmlacademy">
-                <span class="telegram"></span>
-                <img src="icons/social/telegram.svg" alt="телеграмм" width="47" height="40">
-              </a>
-            </li>
-            <li class="social-yt">
-              <span class="youtube"></span>
-              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                <img src="icons/social/youtube.svg" alt="youtube"  width="47" height="40">
-            </li> -->
+          <li class="telegram-link">
+            <a class="social-link" href="https://t.me/htmlacademy ">
+              <span class="visually-hidden">telegram</span>
+            </a>
+          </li>
+          <li class="youtube-link">
+            <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">youtube</span>
+            </a>
+          </li>
+
         </ul>
         <a class="address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            <img src="icons/html-academy.svg" alt=".html-academy" width="115" height="33">
+            <!-- <img src="icons/html-academy.svg" alt=".html-academy" width="115" height="33"> -->
+            <span class="visually-hidden">html-academy</span>
         </a>
       </div>
     </footer>
