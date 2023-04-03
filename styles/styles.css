@@ -190,14 +190,15 @@ body {
 /* main-container */
 .main-welcome {
   width: 1200px;
-  height: 485px;
+  min-height: 485px;
   background: url(../images/index-background.jpg) no-repeat center;
+  background-size: cover;
   padding: 51px 371px;
 }
 
 .advantages-header {
   text-align: center;
-  height: 261px;
+  min-height: 261px;
   padding: 69px 270px;
   margin-bottom: 21px;
 }
@@ -249,6 +250,16 @@ body {
   justify-content: space-between;
 }
 
+.advantages-small-area,
+.advantages-few-tourists {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-beautiful-road {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+
 .real-city-title,
 .bridge-title,
 .small-area-title,
@@ -259,14 +270,14 @@ body {
 }
 
 .recommendations {
-  height: 246px;
+  min-height: 246px;
   text-align: center;
   padding: 64px;
 }
 
 .recommendations-title {
   width: 505px;
-  height: 72px;
+  min-height: 72px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -294,6 +305,7 @@ body {
 
 .housing {
   background: url(../icons/recommendations/housing.svg) no-repeat;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .food {
@@ -302,11 +314,12 @@ body {
 
 .souvenirs {
   background: url(../icons/recommendations/souvenirs.svg) no-repeat;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 /* hotel-search */
 .hotel-search {
-  height: 406px;
+  min-height: 406px;
   padding: 96px 304px;
   text-align: center;
 }
@@ -329,7 +342,7 @@ body {
 /* subscription */
 .subscription {
   width: 1200px;
-  height: 415px;
+  min-height: 415px;
   background: url(../images/index-newsletter.jpg);
   padding: 96px 258px 104px;
   text-align: center;
@@ -356,6 +369,7 @@ body {
   border: none;
   padding: 14px auto 14px 20px;
   border-radius: 4px 0 0 4px;
+  background: #f2f2f2;
 }
 
 .newsletter-button {
@@ -395,7 +409,7 @@ body {
 
 .social-list-item {
   width: 48px;
-  height: 40px;
+  min-height: 40px;
 }
 
 .vk {
@@ -517,7 +531,7 @@ body {
 
 .select-control {
   width: 292px;
-  height: 49px;
+  min-height: 49px;
   background: #ffffff;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
@@ -533,7 +547,7 @@ body {
 
 .button-item {
   width: 48px;
-  height: 48px;
+  min-height: 48px;
   margin-right: 8px;
   border: 2px solid #e5e5e5;
 }
@@ -719,12 +733,4 @@ body {
 
 .subscription-catalog-text {
   margin: 0 auto 54px;
-}
-
-.subscription-catalog-field {
-  width: 452px;
-  height: 52px;
-  border: none;
-  border-radius: 4px;
-  background: #f2f2f2;
 }
