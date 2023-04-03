@@ -16,7 +16,7 @@
 }
 
 .navigation-link-text {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -26,7 +26,7 @@
 }
 
 .button-text {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -36,31 +36,31 @@
   padding: 8px 34px;
   background: #756157;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .main-heading-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
-  }
+}
 
 .main-heading-text {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   margin: 0;
-  }
+}
 
 .heading-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -70,7 +70,7 @@
 }
 
 .heading-text {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -79,7 +79,7 @@
 }
 
 .button-text-big {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -88,12 +88,11 @@
   text-transform: uppercase;
 }
 
-
 /* html */
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -111,11 +110,11 @@
 
 html {
   width: 100%;
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 1200px;
   margin: 0 auto;
   font-family: "PT Sans";
@@ -226,8 +225,8 @@ body {
   justify-content: space-between;
   width: 400px;
   min-height: 385px;
-  background: #82B3D3;
-  color: #FFFFFF;
+  background: #82b3d3;
+  color: #ffffff;
   padding: 102px 85px;
   text-align: center;
 }
@@ -259,11 +258,10 @@ body {
   padding: 0 29px;
 }
 
-
 .recommendations {
   height: 246px;
   text-align: center;
-  padding: 64px ;
+  padding: 64px;
 }
 
 .recommendations-title {
@@ -293,7 +291,6 @@ body {
   text-align: center;
   padding: 183px 85px 81px;
 }
-
 
 .housing {
   background: url(../icons/recommendations/housing.svg) no-repeat;
@@ -325,7 +322,7 @@ body {
 .hotel-search-link {
   background: #756157;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 8px 50px;
 }
 
@@ -336,7 +333,7 @@ body {
   background: url(../images/index-newsletter.jpg);
   padding: 96px 258px 104px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscription-title {
@@ -344,7 +341,7 @@ body {
 }
 
 .subscription-text {
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 100px 54px;
 }
 
@@ -362,9 +359,9 @@ body {
 }
 
 .newsletter-button {
-  background: #82B3D3;
+  background: #82b3d3;
   padding: 8px 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   border-radius: 0 4px 4px 0;
 }
@@ -373,7 +370,7 @@ body {
 .footer-conteiner {
   min-height: 70px;
   padding: 40px 70px 30px;
-   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -413,8 +410,14 @@ body {
   background: url(/icons/social/youtube.svg) no-repeat center;
 }
 
+.vk-link,
+.youtube-link,
+.telegram-link {
+  padding: 10px 24px;
+}
+
 .address-phone {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -428,8 +431,6 @@ body {
   background: url(/icons/html-academy.svg) no-repeat center;
 }
 
-
-
 /* catalog */
 .hotel-filter {
   min-height: 412px;
@@ -442,11 +443,11 @@ body {
 }
 
 .filter-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 8px;
 }
 
@@ -455,11 +456,11 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -474,24 +475,22 @@ body {
   padding: 0;
   border: 0;
   list-style-type: none;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .type-of-housing-title,
 .infostructure-title,
 .price-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 .type-of-housing-list,
 .infostructure-list {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -502,19 +501,27 @@ body {
 /* catalog */
 .catalog-hotels {
   padding: 50px 70px 60px 70px;
-  background-color: aquamarine;
 }
 
 .header-catalog-card {
   min-height: 36px;
-  background-color: aqua;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .header-catalog-card-search {
-  margin: 0;
+  margin: 0 auto 0 0;
+}
+
+.select-control {
+  width: 292px;
+  height: 49px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  margin-right: 70px;
 }
 
 .button-list {
@@ -522,19 +529,16 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 .button-item {
   width: 48px;
   height: 48px;
   margin-right: 8px;
+  border: 2px solid #e5e5e5;
 }
 
 .button-item-select {
-  width: 48px;
-  height: 48px;
-  margin-right: 8px;
   border: 2px #000000 solid;
   border-radius: 4px;
 }
@@ -555,9 +559,172 @@ body {
   background: url(/icons/catalog-card/one.svg) no-repeat center;
 }
 
-
 .hostel-list {
   width: 1060px;
-  height: 896px;
-  background-color: chartreuse;
+  min-height: 896px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.hostel-card {
+  width: 340px;
+  height: 438px;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hostel-card-link {
+  text-decoration: none;
+}
+
+.hostelt-card-title {
+  width: 100%;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  color: #000000;
+}
+
+.hostel-type,
+.hostel-price {
+  width: 45%;
+  margin: 0;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hostel-price {
+  text-align: right;
+}
+
+.button-brown {
+  width: 140px;
+  height: 36px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background: #756157;
+  color: #ffffff;
+}
+
+.button-blue {
+  width: 140px;
+  height: 36px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background: #82b3d3;
+  color: #ffffff;
+}
+
+.button-green {
+  width: 140px;
+  height: 36px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background: #7db54f;
+  color: #ffffff;
+}
+
+.stars {
+  margin: 0;
+}
+
+.rating {
+  width: 140px;
+  height: 37px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  background: #f2f2f2;
+  color: #333333;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+
+.pagination-item {
+  width: 60px;
+  height: 60px;
+  background: #82b3d3;
+  border-radius: 4px;
+}
+
+.pagination-link {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-submit {
+  color: #000000;
+  background: #f2f2f2;
+}
+
+.pagination-none {
+  background: none;
+  color: #000000;
+}
+
+.subscription-catalog {
+  padding: 96px 258px 104px;
+  text-align: center;
+}
+
+.subscription-catalog-title {
+  margin: 0 auto 20px;
+}
+
+.subscription-catalog-text {
+  margin: 0 auto 54px;
+}
+
+.subscription-catalog-field {
+  width: 452px;
+  height: 52px;
+  border: none;
+  border-radius: 4px;
+  background: #f2f2f2;
 }
