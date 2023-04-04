@@ -259,7 +259,6 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
-
 .real-city-title,
 .bridge-title,
 .small-area-title,
@@ -304,16 +303,16 @@ body {
 }
 
 .housing {
-  background: url(../icons/recommendations/housing.svg) no-repeat;
+  background: url(../icons/recommendations/housing.svg) 50% 81px no-repeat;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .food {
-  background: url(../icons/recommendations/food.svg) no-repeat;
+  background: url(../icons/recommendations/food.svg) 50% 82px no-repeat;
 }
 
 .souvenirs {
-  background: url(../icons/recommendations/souvenirs.svg) no-repeat;
+  background: url(../icons/recommendations/souvenirs.svg) 50% 79px no-repeat;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -593,14 +592,6 @@ body {
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.hostel-card-link {
-  text-decoration: none;
 }
 
 .hostelt-card-title {
@@ -691,6 +682,7 @@ body {
 .pagination {
   display: flex;
   list-style: none;
+  text-align: center;
   padding: 0;
   margin: 0;
   gap: 8px;
